@@ -20,3 +20,7 @@ stage("Completed"){
                steps{
                  sh "docker run -itd --name saitejaameda shivanna"
 }
+            }
+        }
+    }
+}
