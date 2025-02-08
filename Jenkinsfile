@@ -2,13 +2,13 @@ pipeline{
     agent any 
     stages{
         stage("Hello"){
-            step{
+            steps{
                 git branch: 'main', url: 'https://github.com/ameda71/csswesite.git'
             } 
         }
     
 stage("Completed"){
-      step{
+      steps{
           echo "Completed"
     }
 }
