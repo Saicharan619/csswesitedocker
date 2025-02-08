@@ -19,7 +19,7 @@ stage("Completed"){
         }
             stage("container"){
                steps{
-                 sh "docker run -itd --name saitejaameda shivanna"
+                 sh "docker run -itd --name saitejaameda shivaanna"
 }
             }
         }
