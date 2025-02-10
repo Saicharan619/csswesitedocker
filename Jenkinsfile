@@ -14,12 +14,12 @@ stage("Completed"){
 }
         stage("Build"){
           steps {
-            sh "docker build -t shivaanna . "
+            sh "docker build -t saicharan . "
     }
         }
             stage("container"){
                steps{
-                 sh "docker run -itd --name saitejaameda shivaanna"
+                 sh "docker run -itd --name reddy saicharan"
 }
             }
         }
