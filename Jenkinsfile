@@ -14,12 +14,12 @@ stage("Completed"){
 }
         stage("Build"){
           steps {
-            sh "docker build -t prabas . "
+            sh "sudo docker build -t prabas . "
     }
         }
             stage("container"){
                steps{
-                 sh "docker run -d -p 55:80 --name salaar prabas"
+                 sh "sudo docker run -d -p 55:80 --name salaar prabas"
 }
             }
         }
