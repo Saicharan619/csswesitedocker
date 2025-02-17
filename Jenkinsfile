@@ -19,7 +19,7 @@ stage("Completed"){
         }
             stage("container"){
                steps{
-                 sh "docker run -d -p 55:80 --name salaar2 rajamannar"
+                 sh "docker run -d -p 515:80 --name salaar2 rajamannar"
 }
             }
         }
